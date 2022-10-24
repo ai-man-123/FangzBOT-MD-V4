@@ -224,11 +224,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon Fangz BOT"},
-	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner Fangz BOT"},
+	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon lynx BOT"},
+	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner lynx BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	{title: `📮 ${pmenus} RULES BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
-	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur Fangz BOT"},
+	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur lynx BOT"},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
@@ -299,14 +299,14 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 
-               「 *Fangz BOT あ⁩* 」
+               「 *lynx BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
-  footer: 'By https://fangzbot.websites.co.in/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
+  footer: 'By https://github.com/ai-man-123/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `FANGZ BOT MENU`,
+  buttonText: `lynx BOT MENU`,
   sections
 }
   if (teks == '404') {
@@ -511,17 +511,17 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By Fangz TEAM',
+            footer: titlebot + '\n⚡ Supported By lync',
             templateButtons: [
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://s.id/Fangzganz'
+                        url: 'https://github.com/ai-man-123'
                     }
                 },
                 {
                     urlButton: {
-                        displayText: 'Group Official',
+                        displayText: 'Aiman hensem :v',
                         url: sgc
                     }
                 },
@@ -539,8 +539,8 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
-                        id: '.donasi'
+                        displayText: '.ttt',
+                        id: '.ttt'
                     }
                 },
             ]
